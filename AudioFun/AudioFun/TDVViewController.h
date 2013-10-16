@@ -10,4 +10,8 @@
 
 @interface TDVViewController : UIViewController
 
+- (IBAction)playOneAudio:(id)sender ;
+- (IBAction)playTwoAudios:(id)sender ;
+- (IBAction)playMutipleAudios:(id)sender ;
+
 @end
