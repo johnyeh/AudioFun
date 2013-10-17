@@ -12,6 +12,9 @@
 
 - (IBAction)playOneAudio:(id)sender ;
 - (IBAction)playTwoAudios:(id)sender ;
-- (IBAction)playMutipleAudios:(id)sender ;
+- (IBAction)playMultipleAudios:(id)sender ;
+- (IBAction)playTwoOniPhone:(id)sender ;
+- (IBAction)playLoudMusic:(id)sender ;
+- (IBAction)playFadingOut:(id)sender;
 
 @end

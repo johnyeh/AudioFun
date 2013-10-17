@@ -11,10 +11,12 @@
 
 @interface TDVViewController ()
 
+
 @property (nonatomic, strong, readwrite) AVAudioPlayer *audioPlayer1;
 @property (nonatomic, strong, readwrite) AVAudioPlayer *audioPlayer2;
 @property (nonatomic, strong, readwrite) AVAudioPlayer *audioPlayer3;
 
+-(void)doVolumeFade;
 @end
 
 @implementation TDVViewController
@@ -33,6 +35,30 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)doVolumeFade
+{
+    if (_audioPlayer1.volume > 0.1) {
+        _audioPlayer1.volume = _audioPlayer1.volume - 0.025;
+        [_audioPlayer1 play];
+        [self performSelector:@selector(doVolumeFade) withObject:nil afterDelay:0.065];
+    } else {
+        // Stop and get the sound ready for playing again
+        [_audioPlayer1 stop];
+        _audioPlayer1.currentTime = 0;
+        [_audioPlayer1 prepareToPlay];
+        _audioPlayer1.volume = 1.0;
+    }
+}
+
+- (IBAction)playFadingOut:(id)sender
+{
+    NSURL *url1 = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/Headlines_end_0db.wav", [[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error1 = nil;
+    _audioPlayer1 = [[AVAudioPlayer alloc] initWithContentsOfURL:url1 error:&error1];
+    [self doVolumeFade];
 }
 
 - (IBAction)playOneAudio:(id)sender
@@ -56,11 +82,11 @@
     
     NSError *error1 = nil;
     _audioPlayer1 = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path1] error:&error1];
-    [_audioPlayer1 setVolume:1.0];
+    [_audioPlayer1 setVolume:0.2];
     
     NSError *error2 = nil;
     _audioPlayer2 = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path2] error:&error2];
-    [_audioPlayer2 setVolume:0.2];
+    [_audioPlayer2 setVolume:1.0];
 
     if (_audioPlayer1 && error1 == nil) {
         [_audioPlayer1 play];
@@ -76,7 +102,7 @@
 
 }
 
-- (IBAction)playMutipleAudios:(id)sender
+- (IBAction)playMultipleAudios:(id)sender
 {
     NSString *path1 = @"/Users/jyeh/Dev/tem/tdv/AppTip.mp3";
     NSString *path2 = @"/Users/jyeh/Dev/tem/tdv/InEntertainmentFemale.mp3";
@@ -113,4 +139,59 @@
     }
 }
 
+- (IBAction)playTwoOniPhone:(id)sender
+{
+    NSURL *url1 = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/SegmentOpen_0db.wav", [[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error1 = nil;
+    _audioPlayer1 = [[AVAudioPlayer alloc] initWithContentsOfURL:url1 error:&error1];
+    
+    NSURL *url2 = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/AppTip.mp3", [[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error2 = nil;
+    _audioPlayer2 = [[AVAudioPlayer alloc] initWithContentsOfURL:url2 error:&error2];
+    
+    if (_audioPlayer1 && error1 == nil) {
+        [_audioPlayer1 setVolume:0.1];
+        [_audioPlayer1 play];
+    } else  { // well, something must be wrong
+        NSLog(@"AudioPlay error: %@", error1);
+    }
+ 
+    if (_audioPlayer2 && error2 == nil) {
+        [_audioPlayer2 setVolume:1.0];
+        [_audioPlayer2 play];
+    } else  { // well, something must be wrong
+        NSLog(@"AudioPlay error: %@", error2);
+    }
+    
+}
+
+
+- (IBAction)playLoudMusic:(id)sender
+{
+    NSURL *url1 = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/SegmentOpen_0db.wav", [[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error1 = nil;
+    _audioPlayer1 = [[AVAudioPlayer alloc] initWithContentsOfURL:url1 error:&error1];
+    
+    NSURL *url2 = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/AppTip.mp3", [[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error2 = nil;
+    _audioPlayer2 = [[AVAudioPlayer alloc] initWithContentsOfURL:url2 error:&error2];
+    
+    if (_audioPlayer1 && error1 == nil) {
+        [_audioPlayer1 setVolume:1.0];
+        [_audioPlayer1 play];
+    } else  { // well, something must be wrong
+        NSLog(@"AudioPlay error: %@", error1);
+    }
+    
+    if (_audioPlayer2 && error2 == nil) {
+        [_audioPlayer2 setVolume:1.0];
+        [_audioPlayer2 play];
+    } else  { // well, something must be wrong
+        NSLog(@"AudioPlay error: %@", error2);
+    }
+}
 @end

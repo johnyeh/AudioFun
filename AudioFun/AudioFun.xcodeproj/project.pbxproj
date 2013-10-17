@@ -21,6 +21,9 @@
 		99A0E7F0180F36FC000B71CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A0E7D2180F36FB000B71CE /* UIKit.framework */; };
 		99A0E7F8180F36FC000B71CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99A0E7F6180F36FC000B71CE /* InfoPlist.strings */; };
 		99A0E7FA180F36FC000B71CE /* AudioFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0E7F9180F36FC000B71CE /* AudioFunTests.m */; };
+		99A0E806180F5593000B71CE /* AppTip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99A0E804180F5593000B71CE /* AppTip.mp3 */; };
+		99A0E807180F5593000B71CE /* SegmentOpen_0db.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99A0E805180F5593000B71CE /* SegmentOpen_0db.wav */; };
+		99B57784180FC0C900BBC7AC /* Headlines_end_0db.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99B57783180FC0C900BBC7AC /* Headlines_end_0db.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		99A0E7F5180F36FC000B71CE /* AudioFunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioFunTests-Info.plist"; sourceTree = "<group>"; };
 		99A0E7F7180F36FC000B71CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99A0E7F9180F36FC000B71CE /* AudioFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioFunTests.m; sourceTree = "<group>"; };
+		99A0E804180F5593000B71CE /* AppTip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AppTip.mp3; path = AudioResources/AppTip.mp3; sourceTree = "<group>"; };
+		99A0E805180F5593000B71CE /* SegmentOpen_0db.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SegmentOpen_0db.wav; path = AudioResources/SegmentOpen_0db.wav; sourceTree = "<group>"; };
+		99B57783180FC0C900BBC7AC /* Headlines_end_0db.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Headlines_end_0db.wav; path = AudioResources/Headlines_end_0db.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		99A0E7C2180F36FB000B71CE = {
 			isa = PBXGroup;
 			children = (
+				99A0E803180F5494000B71CE /* AudioResource */,
 				99A0E7D4180F36FB000B71CE /* AudioFun */,
 				99A0E7F3180F36FC000B71CE /* AudioFunTests */,
 				99A0E7CD180F36FB000B71CE /* Frameworks */,
@@ -150,6 +157,16 @@
 				99A0E7F6180F36FC000B71CE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99A0E803180F5494000B71CE /* AudioResource */ = {
+			isa = PBXGroup;
+			children = (
+				99B57783180FC0C900BBC7AC /* Headlines_end_0db.wav */,
+				99A0E804180F5593000B71CE /* AppTip.mp3 */,
+				99A0E805180F5593000B71CE /* SegmentOpen_0db.wav */,
+			);
+			name = AudioResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				99A0E7E7180F36FB000B71CE /* Images.xcassets in Resources */,
+				99B57784180FC0C900BBC7AC /* Headlines_end_0db.wav in Resources */,
 				99A0E7D9180F36FB000B71CE /* InfoPlist.strings in Resources */,
+				99A0E807180F5593000B71CE /* SegmentOpen_0db.wav in Resources */,
+				99A0E806180F5593000B71CE /* AppTip.mp3 in Resources */,
 				99A0E7E2180F36FB000B71CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +402,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AudioFun/AudioFun-Prefix.pch";
 				INFOPLIST_FILE = "AudioFun/AudioFun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +416,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AudioFun/AudioFun-Prefix.pch";
 				INFOPLIST_FILE = "AudioFun/AudioFun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +483,7 @@
 				99A0E7FF180F36FC000B71CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99A0E800180F36FC000B71CE /* Build configuration list for PBXNativeTarget "AudioFunTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +492,7 @@
 				99A0E802180F36FC000B71CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
