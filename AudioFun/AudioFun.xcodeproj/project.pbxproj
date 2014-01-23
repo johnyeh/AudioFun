@@ -24,6 +24,22 @@
 		99A0E806180F5593000B71CE /* AppTip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99A0E804180F5593000B71CE /* AppTip.mp3 */; };
 		99A0E807180F5593000B71CE /* SegmentOpen_0db.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99A0E805180F5593000B71CE /* SegmentOpen_0db.wav */; };
 		99B57784180FC0C900BBC7AC /* Headlines_end_0db.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99B57783180FC0C900BBC7AC /* Headlines_end_0db.wav */; };
+		99B57786181048D900BBC7AC /* Headlines_loopSHORT_0db.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99B57785181048D900BBC7AC /* Headlines_loopSHORT_0db.wav */; };
+		99EC81341891AB8A00E53BF8 /* AppTip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC81251891AB8A00E53BF8 /* AppTip.mp3 */; };
+		99EC81351891AB8A00E53BF8 /* GoodMorningLesieFemale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC81261891AB8A00E53BF8 /* GoodMorningLesieFemale.mp3 */; };
+		99EC81361891AB8A00E53BF8 /* GoodMorningLeslieFemale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC81271891AB8A00E53BF8 /* GoodMorningLeslieFemale.mp3 */; };
+		99EC81371891AB8A00E53BF8 /* GoodMorningMale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC81281891AB8A00E53BF8 /* GoodMorningMale.mp3 */; };
+		99EC81381891AB8A00E53BF8 /* GoodMorningToplineMale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC81291891AB8A00E53BF8 /* GoodMorningToplineMale.mp3 */; };
+		99EC81391891AB8A00E53BF8 /* InBusinessMale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC812A1891AB8A00E53BF8 /* InBusinessMale.mp3 */; };
+		99EC813A1891AB8A00E53BF8 /* InEntertainmentFemale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC812B1891AB8A00E53BF8 /* InEntertainmentFemale.mp3 */; };
+		99EC813B1891AB8A00E53BF8 /* InLocalMale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC812C1891AB8A00E53BF8 /* InLocalMale.mp3 */; };
+		99EC813C1891AB8A00E53BF8 /* InNationalFemale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC812D1891AB8A00E53BF8 /* InNationalFemale.mp3 */; };
+		99EC813D1891AB8A00E53BF8 /* InSportsMale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC812E1891AB8A00E53BF8 /* InSportsMale.mp3 */; };
+		99EC813E1891AB8A00E53BF8 /* InTechMale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC812F1891AB8A00E53BF8 /* InTechMale.mp3 */; };
+		99EC813F1891AB8A00E53BF8 /* InWorldFemale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC81301891AB8A00E53BF8 /* InWorldFemale.mp3 */; };
+		99EC81401891AB8A00E53BF8 /* SaySkipMale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC81311891AB8A00E53BF8 /* SaySkipMale.mp3 */; };
+		99EC81411891AB8A00E53BF8 /* SportsQUMale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC81321891AB8A00E53BF8 /* SportsQUMale.mp3 */; };
+		99EC81421891AB8A00E53BF8 /* WeatherQUFemale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99EC81331891AB8A00E53BF8 /* WeatherQUFemale.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +75,22 @@
 		99A0E804180F5593000B71CE /* AppTip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AppTip.mp3; path = AudioResources/AppTip.mp3; sourceTree = "<group>"; };
 		99A0E805180F5593000B71CE /* SegmentOpen_0db.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SegmentOpen_0db.wav; path = AudioResources/SegmentOpen_0db.wav; sourceTree = "<group>"; };
 		99B57783180FC0C900BBC7AC /* Headlines_end_0db.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Headlines_end_0db.wav; path = AudioResources/Headlines_end_0db.wav; sourceTree = "<group>"; };
+		99B57785181048D900BBC7AC /* Headlines_loopSHORT_0db.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Headlines_loopSHORT_0db.wav; path = AudioResources/Headlines_loopSHORT_0db.wav; sourceTree = "<group>"; };
+		99EC81251891AB8A00E53BF8 /* AppTip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AppTip.mp3; sourceTree = "<group>"; };
+		99EC81261891AB8A00E53BF8 /* GoodMorningLesieFemale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GoodMorningLesieFemale.mp3; sourceTree = "<group>"; };
+		99EC81271891AB8A00E53BF8 /* GoodMorningLeslieFemale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GoodMorningLeslieFemale.mp3; sourceTree = "<group>"; };
+		99EC81281891AB8A00E53BF8 /* GoodMorningMale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GoodMorningMale.mp3; sourceTree = "<group>"; };
+		99EC81291891AB8A00E53BF8 /* GoodMorningToplineMale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GoodMorningToplineMale.mp3; sourceTree = "<group>"; };
+		99EC812A1891AB8A00E53BF8 /* InBusinessMale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = InBusinessMale.mp3; sourceTree = "<group>"; };
+		99EC812B1891AB8A00E53BF8 /* InEntertainmentFemale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = InEntertainmentFemale.mp3; sourceTree = "<group>"; };
+		99EC812C1891AB8A00E53BF8 /* InLocalMale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = InLocalMale.mp3; sourceTree = "<group>"; };
+		99EC812D1891AB8A00E53BF8 /* InNationalFemale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = InNationalFemale.mp3; sourceTree = "<group>"; };
+		99EC812E1891AB8A00E53BF8 /* InSportsMale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = InSportsMale.mp3; sourceTree = "<group>"; };
+		99EC812F1891AB8A00E53BF8 /* InTechMale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = InTechMale.mp3; sourceTree = "<group>"; };
+		99EC81301891AB8A00E53BF8 /* InWorldFemale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = InWorldFemale.mp3; sourceTree = "<group>"; };
+		99EC81311891AB8A00E53BF8 /* SaySkipMale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SaySkipMale.mp3; sourceTree = "<group>"; };
+		99EC81321891AB8A00E53BF8 /* SportsQUMale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SportsQUMale.mp3; sourceTree = "<group>"; };
+		99EC81331891AB8A00E53BF8 /* WeatherQUFemale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WeatherQUFemale.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +194,22 @@
 		99A0E803180F5494000B71CE /* AudioResource */ = {
 			isa = PBXGroup;
 			children = (
+				99EC81251891AB8A00E53BF8 /* AppTip.mp3 */,
+				99EC81261891AB8A00E53BF8 /* GoodMorningLesieFemale.mp3 */,
+				99EC81271891AB8A00E53BF8 /* GoodMorningLeslieFemale.mp3 */,
+				99EC81281891AB8A00E53BF8 /* GoodMorningMale.mp3 */,
+				99EC81291891AB8A00E53BF8 /* GoodMorningToplineMale.mp3 */,
+				99EC812A1891AB8A00E53BF8 /* InBusinessMale.mp3 */,
+				99EC812B1891AB8A00E53BF8 /* InEntertainmentFemale.mp3 */,
+				99EC812C1891AB8A00E53BF8 /* InLocalMale.mp3 */,
+				99EC812D1891AB8A00E53BF8 /* InNationalFemale.mp3 */,
+				99EC812E1891AB8A00E53BF8 /* InSportsMale.mp3 */,
+				99EC812F1891AB8A00E53BF8 /* InTechMale.mp3 */,
+				99EC81301891AB8A00E53BF8 /* InWorldFemale.mp3 */,
+				99EC81311891AB8A00E53BF8 /* SaySkipMale.mp3 */,
+				99EC81321891AB8A00E53BF8 /* SportsQUMale.mp3 */,
+				99EC81331891AB8A00E53BF8 /* WeatherQUFemale.mp3 */,
+				99B57785181048D900BBC7AC /* Headlines_loopSHORT_0db.wav */,
 				99B57783180FC0C900BBC7AC /* Headlines_end_0db.wav */,
 				99A0E804180F5593000B71CE /* AppTip.mp3 */,
 				99A0E805180F5593000B71CE /* SegmentOpen_0db.wav */,
@@ -246,11 +294,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99EC81401891AB8A00E53BF8 /* SaySkipMale.mp3 in Resources */,
+				99EC813A1891AB8A00E53BF8 /* InEntertainmentFemale.mp3 in Resources */,
+				99B57786181048D900BBC7AC /* Headlines_loopSHORT_0db.wav in Resources */,
+				99EC813E1891AB8A00E53BF8 /* InTechMale.mp3 in Resources */,
+				99EC81381891AB8A00E53BF8 /* GoodMorningToplineMale.mp3 in Resources */,
+				99EC813B1891AB8A00E53BF8 /* InLocalMale.mp3 in Resources */,
+				99EC81351891AB8A00E53BF8 /* GoodMorningLesieFemale.mp3 in Resources */,
+				99EC81421891AB8A00E53BF8 /* WeatherQUFemale.mp3 in Resources */,
 				99A0E7E7180F36FB000B71CE /* Images.xcassets in Resources */,
 				99B57784180FC0C900BBC7AC /* Headlines_end_0db.wav in Resources */,
 				99A0E7D9180F36FB000B71CE /* InfoPlist.strings in Resources */,
+				99EC813F1891AB8A00E53BF8 /* InWorldFemale.mp3 in Resources */,
+				99EC813D1891AB8A00E53BF8 /* InSportsMale.mp3 in Resources */,
+				99EC81371891AB8A00E53BF8 /* GoodMorningMale.mp3 in Resources */,
+				99EC81411891AB8A00E53BF8 /* SportsQUMale.mp3 in Resources */,
+				99EC813C1891AB8A00E53BF8 /* InNationalFemale.mp3 in Resources */,
 				99A0E807180F5593000B71CE /* SegmentOpen_0db.wav in Resources */,
 				99A0E806180F5593000B71CE /* AppTip.mp3 in Resources */,
+				99EC81391891AB8A00E53BF8 /* InBusinessMale.mp3 in Resources */,
+				99EC81341891AB8A00E53BF8 /* AppTip.mp3 in Resources */,
+				99EC81361891AB8A00E53BF8 /* GoodMorningLeslieFemale.mp3 in Resources */,
 				99A0E7E2180F36FB000B71CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,7 +466,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AudioFun/AudioFun-Prefix.pch";
 				INFOPLIST_FILE = "AudioFun/AudioFun-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -416,7 +480,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AudioFun/AudioFun-Prefix.pch";
 				INFOPLIST_FILE = "AudioFun/AudioFun-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

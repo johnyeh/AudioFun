@@ -61,6 +61,21 @@
     [self doVolumeFade];
 }
 
+- (IBAction)playLoop:(id)sender
+{
+    NSURL *url1 = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/Headlines_loopSHORT_0db.wav", [[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error1 = nil;
+    _audioPlayer1 = [[AVAudioPlayer alloc] initWithContentsOfURL:url1 error:&error1];
+    if (_audioPlayer1 && error1 == nil) {
+        _audioPlayer1.numberOfLoops = -1; // infinite loop
+        [_audioPlayer1 play];
+    } else  { // well, something must be wrong
+        NSLog(@"AudioPlay error: %@", error1);
+    }
+    
+}
+
 - (IBAction)playOneAudio:(id)sender
 {
     NSString *path = @"/Users/jyeh/Dev/tem/tdv/AppTip.mp3";

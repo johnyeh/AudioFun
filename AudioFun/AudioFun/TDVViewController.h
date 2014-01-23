@@ -16,5 +16,6 @@
 - (IBAction)playTwoOniPhone:(id)sender ;
 - (IBAction)playLoudMusic:(id)sender ;
 - (IBAction)playFadingOut:(id)sender;
+- (IBAction)playLoop:(id)sender;
 
 @end
